@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="860.0" style="-fx-background-color: #F0F0F0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.newchatproject.controllers.indexController">
+   <children>
+      <VBox maxWidth="1.7976931348623157E308" prefHeight="720.0" prefWidth="860.0" style="-fx-background-color: #58AF9C;">
+         <children>
+            <HBox alignment="CENTER" style="-fx-padding: 10;">
+               <children>
+                  <ImageView fitHeight="364.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/logo1.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox alignment="TOP_CENTER" prefHeight="454.0" prefWidth="860.0" style="-fx-padding: 10;">
+               <children>
+                  <Label fx:id="titleLabel" alignment="CENTER" contentDisplay="TOP" prefHeight="104.0" prefWidth="549.0" text="Seja bem vindo!" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="64.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="subtitleLabel" alignment="CENTER" text="Crie conexões de forma simples" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="60.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Button fx:id="singInButton" alignment="CENTER" mnemonicParsing="false" prefHeight="55.0" prefWidth="222.0" style="-fx-font-color: #58AF9C; -fx-background-radius: 50; -fx-background-color: white; -fx-font-size: 21; -fx-font-weight: bold;" text="ENTRAR" textFill="#58af9c">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="singUpButton" alignment="CENTER" layoutX="329.0" layoutY="246.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="376.0" style="-fx-font-color: #58AF9C; -fx-background-color: none; -fx-font-size: 14; -fx-font-weight: bold; -fx-pref-width: 200; -fx-pref-height: 40;" text="CRIAR NOVA CONTA" textFill="#043d5d">
+                     <font>
+                        <Font name="Calibri Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
