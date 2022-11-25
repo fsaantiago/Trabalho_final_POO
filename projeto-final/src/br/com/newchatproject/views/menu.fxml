@@ -41,7 +41,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="720.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.trabalhofinal.controller.MenuController">
+<VBox prefHeight="720.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.newchatproject.controllers.MenuCt">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" style="-fx-background-color: #f0f0f0;" VBox.vgrow="ALWAYS">
          <children>
@@ -57,7 +57,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Button fx:id="btnLogout" mnemonicParsing="false" onAction="#logout" text="Sair" />
+                  <Button fx:id="btnLogout" mnemonicParsing="false"  text="Sair" />
                </children>
             </HBox>
             <Button fx:id="btnAddAmigo" alignment="CENTER" layoutX="144.0" layoutY="416.0" mnemonicParsing="false" onAction="#addAmigo" prefHeight="38.0" prefWidth="150.0" text="Explorar">
