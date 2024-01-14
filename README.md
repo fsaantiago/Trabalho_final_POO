@@ -2,7 +2,7 @@
 
 Projeto desenvolvido utilizando como base interfaces de redes sociais comuns como Facebook e Instagram, levando em conta os itens propostos para o trabalho como as telas de login, cadastro, visualização de conexões e futuras, bem como sua interação entre as telas e a comunicação com a base de dados construída para o armazenamento dados da rede social.
 
-<p>Relacionamento entre as telas do aplicativo:</p>
+<p>Relacionamento entre as telas do aplicativo e banco de dados:</p>
 <img src="projeto-final/relatorio/img-git/relationship-1.jpg">
 
 <p>Exemplo de criação de usuário:</p>
